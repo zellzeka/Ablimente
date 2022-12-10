@@ -1,0 +1,384 @@
+:root {
+    --bs-nav-link-font-size: 0.8rem;
+    --bg-light-pink:  #F4ECE8;
+    --contrast-font-color:#F39200;
+    
+}
+body,
+html {
+    font-family: "Abhaya Libre", serif;
+    font-family: "Noto Serif", serif;
+    font-family: "Poppins", sans-serif;
+    font-size: 16px;
+    color: #3D3D3C;
+}
+.form-control{
+    border-radius: 0;
+    border: none;
+    border-right: 1px solid #F2F2F2;
+    height: 100%;
+}
+.nav{
+    font-weight: 500;
+}
+
+.dropdown-toggle::after {
+    display: inline-block;
+    margin-left: 1rem;
+    content: url(../img/Vector5.svg);
+    border: none;
+}
+
+.custom-form {
+    background-image: url("../img/Icona-lente.png");
+    background-size:content;
+    background-repeat: no-repeat;
+    background-position: 85%;
+    text-indent: 20px;
+    transition:0.3s;
+}
+.custom-form:focus {
+    background-image:none;
+    text-indent:0px;
+}   
+.lemonscreen{
+    background: linear-gradient(270deg, #3D3D3C 0%, rgba(61, 61, 60, 0.2) 100%), url(../img/background1.png) center/cover no-repeat;
+}
+h1,
+h2,
+h3,
+.big-card-text,
+.medium-card-text{
+    font-family: "Abhaya Libre", serif;
+}
+h1{
+    padding-top: 19.3rem;
+    font-weight: 700;
+    font-size: 3.7rem;
+    color: #fff;
+}
+.h1-description{
+    color: #fff;
+    font-size: 13px;
+    font-weight: 500;
+}
+h2{
+    font-weight: 700;
+    font-size: 3.7rem;
+    color: #3D3D3C;
+}
+.h2-row{
+    border-bottom: 1px solid #B5B7C3;
+}
+h3{
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-size: 24px;
+}
+h5,
+h6{
+    font-family: "Poppins", sans-serif;
+}
+h5{
+    font-weight: 500;
+    font-size: 0.8rem;
+    color: #F39200;
+}
+h6{
+    font-size: 9px;
+    font-weight: 600;
+    color: var(--contrast-font-color);
+}
+.pink-bg{
+    background-color: var(--bg-light-pink);
+}
+
+.card-text{
+    font-weight: 500;
+    font-size: 18px;
+}
+.news{
+    background-color: var(--bg-light-pink);
+    padding-bottom: 5rem;
+}
+/* .product-card{
+    border-radius: 2px 2px 0px 0px;
+} */
+.product-autor{
+    font-size: 13px;
+    font-weight: 400;
+    color: var(--contrast-font-color);
+}
+.product-autor-span{
+    color:#3D3D3C;
+}
+.btn,
+.card-small-text{
+    font-size: 13px;
+    font-weight: 400;
+}
+.card-small-text{
+    font-family: "Noto Serif", serif;
+}
+.small{
+    font-weight: 400;
+    font-size: 9px;
+    margin-top: 4.6rem;
+}
+.mondi{
+    padding: 5.1rem 0;
+}
+.icon-container{
+    background-color: #3D3D3C;
+}
+.small-container{
+    padding: 5.3rem 1.6rem 1.6rem 1.6rem;
+}
+.icons-row{
+    padding-top: 93px;
+}
+.icon-card{
+    width: 193px;
+    height: 136px;
+    padding-top: 80px;
+    margin-bottom: 85px;
+    font-weight: 500;
+    font-size: 13px;
+    background-color: #fff;
+}
+.icon-container{
+    width: 122px;
+    height: 122px;
+    top: -50%;
+    left: 18%;
+}
+.tutorial{
+    background-color: var(--bg-light-pink);
+    padding-bottom: 6.3rem;
+}
+.product-autor-container{
+    font-weight: 500;
+    font-size: 13px;
+}
+.product-autor-row-span{
+    color: var(--contrast-font-color);
+}
+.medium-card-text{
+    font-weight: 700;
+    font-size: 1.8rem;
+}
+.medium-card-button{
+    margin-top: 4.1rem;
+}
+.sponsor-container{
+    padding-bottom: 100px;
+}
+.sponsor-card{
+    width: 192px;
+    height: 194px;
+    margin-bottom: 25px;
+    font-weight: 400;
+    font-size: 13px;
+    background-color: #fff;
+    padding: 88px 0;
+}
+.sponsor-row::before{
+    content: url(../img/Freccia-left.png);
+    position: absolute;
+    top: 46%;
+    left: -6%;
+}
+.sponsor-row::after{
+    content: url(../img/Freccia-right.png);
+    position: absolute;
+    top: 46%;
+    right: -6%;
+}
+
+.vienti-offer-header{
+    font-family: "Abhaya Libre", serif;
+    font-weight: 700;
+    font-size: 3.75rem;
+    line-height: 103.5%;
+}
+.vienti-offer-description{
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-size: 1.5rem;
+    line-height: 136%;
+}
+.vienti-offer-footnote{
+    font-family: "Noto Serif", serif;
+    font-weight: 400;
+    font-size: 0.8rem;
+    line-height: 150%;
+}
+.vienti-promo-roma{
+    background-color: 
+    #059EB2;
+}
+.vienti-promo-vicenza{
+    background-color: 
+    #F39200;
+}
+.contrast-button{
+    background: transparent;
+    border-color: #fff;
+    padding: 11px 25px;
+}
+.vienti-promo-icon{
+    width: 124px;
+    height: 132px;
+    background-color: #fff;
+    margin-right: 3.75rem;
+}
+.vienti-promo-header{
+    font-weight: 700;
+    font-size: 2.5rem;
+    line-height: 60.3%;
+}
+.vienti,
+.newsletter{
+    padding: 5rem 0;
+}
+.newsletter-container{
+    padding-bottom: 5rem;
+}
+.newsletter-form-inpit{
+    border: 1px solid #3D3D3C;
+    border-radius: 4px;
+}
+.newsletter-form-lable{
+    font-family: 'Noto Serif';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 9px;
+    line-height: 160%;
+}
+.newsletter-form-button{
+    padding: 8px 61px;
+    font-weight: 500;
+}
+.newsletter-form-lable-descr{
+    padding-top: 2.6rem;
+    padding-right: 4.3rem;
+}
+.footer-container-navs{
+    padding: 1.3rem 0 5.6rem;
+}
+.list-group-color{
+    color: #3D3D3C;
+    font-weight: 500;
+    font-size: 13px;
+}
+.footer-nav-comtainer{
+    padding: 10px 0 4.1rem;
+}
+.footer-form-container{
+    padding: 3.5rem 0 5.4rem;
+}
+.customers-container{
+    padding: 1.5rem 0 2.5rem;
+}
+.copyrights-styles{
+    background-color: #E5E5E5;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 140%;
+}
+.copyrights-container{
+    padding: 20px 0 5px;
+}
+.breadcrumb-color{
+    color:#3D3D3C
+}
+.breadcrumb-item+.breadcrumb-item::before {
+    content: url(../img/Arrow1.png);
+    padding: 0 1rem;   
+}
+.news-h1{
+    color:#3D3D3C
+
+}
+.data{
+    font-weight: 500;
+    font-size: 13px;
+    color: #B5B7C4;
+}
+.market-card{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.1rem;
+    line-height: 140%;
+}
+.article-body{
+    padding-right: 1rem;
+}
+.h1-articolo{
+    color: #3D3D3C;
+    font-weight: 700;
+    font-size: 2.5rem;
+    line-height: 114.3%;
+    padding-top: 1rem;
+}
+.articolo-text{
+    font-weight: 400;
+    font-size: 0.8rem;
+    line-height: 150%;
+}
+.articolo-figcaption{
+    font-family: 'Noto Serif';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 150%;
+}
+.artcle-container{
+    padding-bottom: 5.6rem;
+}
+.aside-header{
+    color: #3D3D3C;
+    font-weight: 400;
+    padding-top: 4.3rem;
+}
+.aside-card-text{
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 140%;
+}
+@media(max-width:1000px){
+    body,
+    html{
+        font-size: 12px;
+    }
+}
+@media (max-width:575px) {
+    .sponsor-row{
+        max-width: 415px;
+    }
+    .sponsor-row::before{
+        display: none;
+    }.sponsor-row::after{
+        display: none;
+    }
+}
+@media (max-width:992px) {
+    .sponsor-row{
+        max-width: 415px;
+    }
+}
+@media (min-width:350px) {
+    .vienti-offer-container{
+        padding: 5rem 3rem 0;
+    }
+    .newsletter-offer-container,
+    .newsletter-form-container{
+        padding: 5rem 6.6rem 0 5rem;
+    }
+}
+@media (min-width:768px) {
+    .article-body{
+        padding-right: 7.8rem;
+    }
+}
